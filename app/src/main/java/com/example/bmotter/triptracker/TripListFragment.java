@@ -43,15 +43,13 @@ import android.util.Log;
         import java.util.concurrent.RunnableFuture;
         import java.util.zip.Inflater;
 
-/*
- * Created by klaidley on 4/13/2015.
- */
+
 public class TripListFragment extends ListFragment {
 
     private static final String TAG = "TripListFragment";
     private ArrayList<Trip> mTrips;
     private boolean mPublicView = false;
-
+    public String myString = "";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
